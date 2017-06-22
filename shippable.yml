@@ -3,6 +3,10 @@ language: none
 build:
   pre_ci:
     - exit 0
+  pre_ci_boot:
+    image_name: drydock/u16
+    image_tag: master
+    pull: false
   ci:
     - exit 0
   post_ci:
