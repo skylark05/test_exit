@@ -8,6 +8,6 @@ build:
     image_tag: master
     pull: false
   ci:
-    - exit 0
+    - return 0
   post_ci:
     - exit 0
