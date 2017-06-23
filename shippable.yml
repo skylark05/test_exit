@@ -11,7 +11,3 @@ build:
     - exit 0
   post_ci:
     - exit 0
-  on_success:
-    - exit 0
-  on_failure:
-    - exit 0  
